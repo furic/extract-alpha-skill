@@ -1,5 +1,11 @@
 # extract-alpha
 
+[![Claude Code Skill](https://img.shields.io/badge/Claude_Code-Skill-blue?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6Ii8+PC9zdmc+)](https://docs.anthropic.com/en/docs/claude-code)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.x-yellow?logo=python&logoColor=white)](https://www.python.org/)
+[![Pillow](https://img.shields.io/badge/Pillow-required-orange)](https://python-pillow.org/)
+[![Superpowers Marketplace](https://img.shields.io/badge/Superpowers-Marketplace-purple)](https://github.com/obra/superpowers-marketplace)
+
 A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that removes backgrounds from AI-generated images using **two-pass difference matting**.
 
 ## The Problem
