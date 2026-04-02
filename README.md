@@ -21,7 +21,7 @@ This produces pixel-perfect alpha extraction — no AI guessing, no edge artifac
 ## Quick Install (Claude Code Plugin)
 
 ```bash
-/install furic/extract-alpha-skill
+/install furic/extract-alpha
 ```
 
 That's it — the plugin installs the skill automatically.
@@ -32,7 +32,7 @@ If you prefer to install manually:
 
 ```bash
 # Clone this repo
-git clone https://github.com/furic/extract-alpha-skill.git
+git clone https://github.com/furic/extract-alpha.git
 
 # Copy to your Claude Code skills directory
 mkdir -p ~/.claude/skills/extract-alpha
