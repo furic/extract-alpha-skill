@@ -1,6 +1,6 @@
 ---
 name: extract-alpha
-description: Remove background from AI-generated (e.g. Gemini) images using two-pass difference matting. Use when the user has white/black background image pairs that need transparent backgrounds. Invoke with /extract-alpha @file_path.
+description: Remove background from AI-generated (e.g. Gemini) images using two-pass difference matting. Use when the user has white/black background image pairs that need transparent backgrounds.
 argument-hint: "<file_path>"
 ---
 
