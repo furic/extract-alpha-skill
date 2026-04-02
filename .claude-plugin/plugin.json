@@ -1,0 +1,20 @@
+{
+  "name": "extract-alpha",
+  "description": "Remove background from AI-generated images using two-pass difference matting. Generate the same image on white and black backgrounds, then extract pixel-perfect transparency.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Richard Fu"
+  },
+  "homepage": "https://github.com/furic/extract-alpha-skill",
+  "repository": "https://github.com/furic/extract-alpha-skill",
+  "license": "MIT",
+  "category": "media",
+  "tags": [
+    "image-processing",
+    "background-removal",
+    "alpha-extraction",
+    "transparency",
+    "ai-image",
+    "difference-matting"
+  ]
+}

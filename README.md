@@ -1,4 +1,4 @@
-# Extract Alpha &middot; [![Claude Code Skill](https://img.shields.io/badge/Claude_Code-Skill-blue)](https://docs.anthropic.com/en/docs/claude-code) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![Python](https://img.shields.io/badge/Python-3.x-yellow?logo=python&logoColor=white)](https://www.python.org/) [![Pillow](https://img.shields.io/badge/Pillow-required-orange)](https://python-pillow.org/) [![Superpowers Marketplace](https://img.shields.io/badge/Superpowers-Marketplace-purple)](https://github.com/obra/superpowers-marketplace)
+# Extract Alpha &middot; [![Claude Code Plugin](https://img.shields.io/badge/Claude_Code-Plugin-blue)](https://docs.anthropic.com/en/docs/claude-code) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![Python](https://img.shields.io/badge/Python-3.x-yellow?logo=python&logoColor=white)](https://www.python.org/) [![Pillow](https://img.shields.io/badge/Pillow-required-orange)](https://python-pillow.org/)
 
 A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that removes backgrounds from AI-generated images using **two-pass difference matting**.
 
@@ -18,23 +18,25 @@ Math: `alpha = 1 - colorDistance(whiteImg, blackImg) / maxDistance`
 
 This produces pixel-perfect alpha extraction — no AI guessing, no edge artifacts.
 
-## Installation
+## Quick Install (Claude Code Plugin)
 
-Copy the skill into your Claude Code skills directory:
+```bash
+/install furic/extract-alpha-skill
+```
+
+That's it — the plugin installs the skill automatically.
+
+### Manual Install
+
+If you prefer to install manually:
 
 ```bash
 # Clone this repo
 git clone https://github.com/furic/extract-alpha-skill.git
 
 # Copy to your Claude Code skills directory
-cp -r extract-alpha-skill/SKILL.md ~/.claude/skills/extract-alpha/SKILL.md
-```
-
-Or add as a git submodule in your project:
-
-```bash
-mkdir -p .claude/skills
-git submodule add https://github.com/furic/extract-alpha-skill.git .claude/skills/extract-alpha
+mkdir -p ~/.claude/skills/extract-alpha
+cp extract-alpha-skill/skills/extract-alpha/SKILL.md ~/.claude/skills/extract-alpha/SKILL.md
 ```
 
 ### Requirements
